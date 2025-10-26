@@ -7,7 +7,7 @@ from colorama import init as colorama_init
 colorama_init()
 
 # ------------- CONFIG -------------
-SONG_NAME = "I Wanna Be Yours" # Here you put the name of the song that you want to here
+SONG_NAME = "I Wanna Be Yours" # Here you put the name of the song that you want to hear
 MUSIC_FOLDER = "C:/Users/folders" # Here you put the folder where the song is register
 
 MIN_WORD_DELAY = 0.04
@@ -15,7 +15,7 @@ MAX_WORD_DELAY = 0.6
 DEFAULT_LAST_LINE_DUR = 3.0
 
 # ------------- LYRICS (timestamps en secondes) -------------
-# To change the lyrics you should use the website LRCLIB to get the lyrics, and you can use chatgpt to make the lyrics that you take like that (I'll connect LRCLIB api later)
+# To change the lyrics you should use the website LRCLIB to get the lyrics of your song, and you can use chatgpt to make the lyrics that you take like that (I'll connect LRCLIB api later)
 Song_lyrics = {
     18.09: "I wanna be your vacuum cleaner",
     21.85: "Breathing in your dust",
